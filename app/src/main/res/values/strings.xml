@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">StepQuest</string>
+
+    <!-- Main screen -->
+    <string name="title_history">Walk history</string>
+    <string name="steps_label">steps this walk</string>
+    <string name="steps_zero">0</string>
+    <string name="goal_label">Goal: %1$d steps</string>
+    <string name="goal_progress">%1$d%% of goal</string>
+    <string name="goal_reached">Goal reached — nice work!</string>
+
+    <!-- Derived readouts (steps converted into something a human cares about) -->
+    <string name="distance_readout">%1$s km</string>
+    <string name="distance_caption">Distance</string>
+    <string name="calories_readout">%1$d kcal</string>
+    <string name="calories_caption">Calories</string>
+    <string name="pace_readout">%1$s /min</string>
+    <string name="pace_caption">Cadence</string>
+
+    <!-- Live accelerometer readout -->
+    <string name="motion_label">Motion (accelerometer)</string>
+    <string name="motion_readout">x %1$.2f   y %2$.2f   z %3$.2f</string>
+    <string name="motion_magnitude">Net movement: %1$.2f m/s²</string>
+
+    <!-- Sensor source / status messages -->
+    <string name="source_hardware">Using the hardware step counter</string>
+    <string name="source_fallback">No pedometer on this device — counting steps from the accelerometer</string>
+    <string name="source_none">This device reports no usable motion sensors</string>
+    <string name="status_idle">Press Start to begin a walk</string>
+    <string name="status_tracking">Tracking…</string>
+    <string name="status_paused">Paused — sensors released</string>
+
+    <!-- Permission messages -->
+    <string name="permission_rationale">StepQuest needs the Physical activity permission to read your step sensor.</string>
+    <string name="permission_denied">Permission denied. Step tracking is off — grant "Physical activity" in Settings to turn it back on.</string>
+
+    <!-- Buttons -->
+    <string name="action_start">Start walk</string>
+    <string name="action_stop">Stop &amp; save</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_history">History</string>
+
+    <!-- History screen -->
+    <string name="history_empty">No walks saved yet.\nStart one on the main screen.</string>
+    <string name="history_row_detail">%1$s km · %2$d kcal · %3$s</string>
+    <string name="history_total">%1$d walks · %2$d steps total</string>
+    <string name="saved_toast">Walk saved to history</string>
+
+    <plurals name="steps">
+        <item quantity="one">%d step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+</resources>
